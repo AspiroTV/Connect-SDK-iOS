@@ -26,6 +26,8 @@
 		0F446CC91A6D924D000BB1C0 /* MediaLaunchObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F446CC71A6D924D000BB1C0 /* MediaLaunchObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F446CCA1A6D924D000BB1C0 /* MediaLaunchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F446CC81A6D924D000BB1C0 /* MediaLaunchObject.m */; };
 		146A7D1B1B2896C300260441 /* FireTVIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146A7D1A1B2896C300260441 /* FireTVIntegrationTests.m */; };
+		1EDF927D1B6B754B00BC9FE2 /* HACastContentDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EDF927C1B6B754B00BC9FE2 /* HACastContentDetails.h */; };
+		1EDF927F1B6B755500BC9FE2 /* HACastContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF927E1B6B755500BC9FE2 /* HACastContentDetails.m */; };
 		440A031D1A854EDE0007E3D3 /* WebOSTVServiceSocketClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 440A031C1A854EDE0007E3D3 /* WebOSTVServiceSocketClientTests.m */; };
 		44166C561B4203880052F9EC /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
 		44166C5C1B420B6A0052F9EC /* AirPlayServiceAcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E98F991B1E733D0043BC70 /* AirPlayServiceAcceptanceTests.m */; };
@@ -396,6 +398,8 @@
 		0F446CC71A6D924D000BB1C0 /* MediaLaunchObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaLaunchObject.h; sourceTree = "<group>"; };
 		0F446CC81A6D924D000BB1C0 /* MediaLaunchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaLaunchObject.m; sourceTree = "<group>"; };
 		146A7D1A1B2896C300260441 /* FireTVIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireTVIntegrationTests.m; sourceTree = "<group>"; };
+		1EDF927C1B6B754B00BC9FE2 /* HACastContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACastContentDetails.h; sourceTree = "<group>"; };
+		1EDF927E1B6B755500BC9FE2 /* HACastContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACastContentDetails.m; sourceTree = "<group>"; };
 		440A031C1A854EDE0007E3D3 /* WebOSTVServiceSocketClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOSTVServiceSocketClientTests.m; sourceTree = "<group>"; };
 		440A031E1A85536A0007E3D3 /* WebOSTVServiceSocketClient_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebOSTVServiceSocketClient_Private.h; sourceTree = "<group>"; };
 		44166C501B4203880052F9EC /* ConnectSDKAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1374,6 +1378,8 @@
 			isa = PBXGroup;
 			children = (
 				4494262E1AF82F28006BAFF2 /* BlockRunner */,
+				1EDF927C1B6B754B00BC9FE2 /* HACastContentDetails.h */,
+				1EDF927E1B6B755500BC9FE2 /* HACastContentDetails.m */,
 				EA5FB803199AEC550057B4B4 /* AppInfo.h */,
 				EA5FB804199AEC550057B4B4 /* AppInfo.m */,
 				EA5FB805199AEC550057B4B4 /* ChannelInfo.h */,
@@ -1652,6 +1658,7 @@
 				EA5FB8E8199AEC560057B4B4 /* ServiceConfigDelegate.h in Headers */,
 				EA5FB8D7199AEC560057B4B4 /* PowerControl.h in Headers */,
 				EA5FB8F0199AEC570057B4B4 /* DIALService.h in Headers */,
+				1EDF927D1B6B754B00BC9FE2 /* HACastContentDetails.h in Headers */,
 				44EF618B1A12DC7E00CF344C /* ConnectSDK-Prefix.pch in Headers */,
 				EA5FB8F2199AEC570057B4B4 /* DLNAService.h in Headers */,
 				EA5FB8D3199AEC560057B4B4 /* Launcher.h in Headers */,
@@ -2061,6 +2068,7 @@
 				EA5FB8FD199AEC570057B4B4 /* NetcastTVService.m in Sources */,
 				EA5FB901199AEC570057B4B4 /* AirPlayWebAppSession.m in Sources */,
 				4498D98D1A659F43008C0B72 /* NSDictionary+KeyPredicateSearch.m in Sources */,
+				1EDF927F1B6B755500BC9FE2 /* HACastContentDetails.m in Sources */,
 				EA5FB882199AEC550057B4B4 /* ZeroConfDiscoveryProvider.m in Sources */,
 				44C2CC951AB7948300B20E46 /* XMLWriter+ConvenienceMethods.m in Sources */,
 				448B28791B041A5600DFF18F /* FireTVMediaPlayer.m in Sources */,
