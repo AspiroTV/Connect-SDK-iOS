@@ -8,4 +8,5 @@
 	branch = dev
 [submodule "modules/orange-cast"]
 	path = modules/orange-cast
-	url = git@github.com:AspiroTV/Connect-SDK-iOS-Orange-Cast.git
+	url = https://github.com/AspiroTV/Connect-SDK-iOS-Orange-Cast.git
+	branch = master
