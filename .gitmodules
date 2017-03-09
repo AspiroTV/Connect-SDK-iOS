@@ -1,12 +1,9 @@
-[submodule "modules/google-cast"]
-	path = modules/google-cast
-	url = https://github.com/AspiroTV/Connect-SDK-iOS-Google-Cast.git
-	branch = dev
 [submodule "core"]
 	path = core
-	url = https://github.com/AspiroTV/Connect-SDK-iOS-Core.git
-	branch = dev
+	url = git@github.com:AspiroTV/Connect-SDK-iOS-Core.git
+[submodule "modules/google-cast"]
+	path = modules/google-cast
+	url = git@github.com:AspiroTV/Connect-SDK-iOS-Google-Cast.git
 [submodule "modules/orange-cast"]
 	path = modules/orange-cast
-	url = https://github.com/AspiroTV/Connect-SDK-iOS-Orange-Cast.git
-	branch = master
+	url = git@github.com:AspiroTV/Connect-SDK-iOS-Orange-Cast.git
